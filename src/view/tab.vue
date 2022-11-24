@@ -90,7 +90,7 @@ export default {
         }else{
             if(this.$route.path !== '/dashboard') {
                 console.log('mounted222222',this.openTab)
-                this.add_tabs({route: '/dashboard' , name: '首页11'})
+                this.add_tabs({route: '/dashboard' , name: '首页111'})
                 this.add_tabs({route: this.$route.path , name: this.$route.name })
                 this.set_active_index(this.$route.path)
             }else{
